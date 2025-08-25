@@ -8,228 +8,225 @@ pros:
 - easy access to data structures, unlike typescript
 - relates well to my longer term Machine Learning Engineer goals
 
-# to solve:
+# problems:
 
 ## arrays
 
-- [X] Majority Element
-- [ ] Product of Array Except Self
-- [ ] First Missing Positive
+- [X] 169. Majority Element
+- [ ] 238. Product of Array Except Self
+- [ ] 41. First Missing Positive
 
 ## strings
 
-- [ ] Is Subsequence
-- [ ] Reverse Words in a String
+- [ ] 392. Is Subsequence
+- [ ] 151. Reverse Words in a String
 
 ## bit manipulation
 
-- [ ] Counting Bits
-- [ ] Single Number III
+- [ ] 338. Counting Bits
+- [ ] 260. Single Number III
 
 ## hash tables
 
-- [ ] Group Anagrams
-- [ ] Longest Consecutive Sequence
+- [ ] 49. Group Anagrams
+- [ ] 128. Longest Consecutive Sequence
 
 ## two pointers
 
-- [ ] Container With Most Water
-- [ ] 3Sum
-- [ ] Trapping Rain Water
+- [ ] 11. Container With Most Water
+- [ ] 15. 3Sum
+- [ ] 42. Trapping Rain Water
 
 ## prefix sum
 
-- [ ] Subarray Sum Equals K
+- [ ] 325. Subarray Sum Equals K
 
 
 ## sliding window - fixed size
 
-- [ ] Find All Anagrams in a String
-- [ ] Permutation in String
+- [ ] 438. Find All Anagrams in a String
+- [ ] 567. Permutation in String
 
 ## sliding window - dynamic size
 
-- [ ] Longest Substring Without Repeating Characters
-- [ ] Minimum Window Substring
+- [ ] 3. Longest Substring Without Repeating Characters
+- [ ] 76. Minimum Window Substring
 
 
 ## kadane's algorithm
 
-- [ ] Maximum Subarray
+- [ ] 53. Maximum Subarray
 
 ## matrix (2d array)
 
-- [ ] Spiral Matrix
-- [ ] Rotate Image
+- [ ] 54. Spiral Matrix
+- [ ] 48. Rotate Image
 
 
 ## linked list
 
-- [ ] Remove Nth Node From End of List
-- [ ] Swap Nodes in Pairs
-- [X] Add Two Numbers
+- [ ] 19. Remove Nth Node From End of List
+- [ ] 24. Swap Nodes in Pairs
+- [X] 2. Add Two Numbers
 
 ## linked list (in place reversal)
 
-- [ ] Reverse Nodes in k-Group
+- [ ] 25. Reverse Nodes in k-Group
 
 ## fast and slow pointers 
 
-- [ ] Linked List Cycle II
+- [ ] 142. Linked List Cycle II
 
 
 ## stacks
 
-- [ ] Valid Parentheses
-- [ ] Min Stack
+- [ ] 20. Valid Parentheses
+- [ ] 155. Min Stack
 
 
 ## monotonic stack
 
-- [ ] Largest Rectangle in Histogram
+- [ ] 84. Largest Rectangle in Histogram
 
 
 ## monotonic queue
 
-- [ ] Sliding Window Maximum
+- [ ] 239. Sliding Window Maximum
 
 
 ## quicksort / quickselect
 
-- [ ] Sort Colors
+- [ ] 75. Sort Colors
 
 
 ## binary search
 
-- [ ] Find First and Last Position of Element in Sorted Array
-- [ ] Search in Rotated Sorted Array
-- [ ] Median of Two Sorted Arrays
+- [ ] 34. Find First and Last Position of Element in Sorted Array
+- [ ] 33. Search in Rotated Sorted Array
+- [ ] 4. Median of Two Sorted Arrays
 
 
 ## backtracking
 
-- [ ] Permutations
-- [ ] Subsets
+- [ ] 46. Permutations
+- [ ] 78. Subsets
 
 
 ## tree traversal (level-order)
 
-- [ ] Binary Tree Level Order Traversal
-- [ ] Binary Tree Right Side View
+- [ ] 102. Binary Tree Level Order Traversal
+- [ ] 199. Binary Tree Right Side View
 
 
 ## tree traversal (pre-order)
 
-- [ ] Binary Tree Preorder Traversal
-- [ ] Path Sum III
-- [ ] Serialize and Deserialize Binary Tree
+- [ ] 144. Binary Tree Preorder Traversal
+- [ ] 437. Path Sum III
+- [ ] 297. Serialize and Deserialize Binary Tree
 
 ## tree traversal (in-order)
 
-- [ ] Binary Tree Inorder Traversal
-- [ ] Validate Binary Search Tree
-- [ ] Kth Smallest Element in a BST
+- [ ] 94. Binary Tree Inorder Traversal
+- [ ] 98. Validate Binary Search Tree
+- [ ] 230. Kth Smallest Element in a BST
 
 ## tree traversal (post-order)
 
-- [ ] Binary Tree Postorder Traversal
-- [ ] Lowest Common Ancestor of a Binary Tree
-- [ ] Binary Tree Maximum Path Sum
+- [ ] 145. Binary Tree Postorder Traversal
+- [ ] 236. Lowest Common Ancestor of a Binary Tree
+- [ ] 124. Binary Tree Maximum Path Sum
 
 ## BST / ordered set
 
-- [ ] My Calendar I
+- [ ] 729. My Calendar I
 
 ## tries
 
-- [ ] Implement Trie (Prefix Tree)
-- [ ] Word Search II
+- [ ] 1804. Implement Trie (Prefix Tree)
+- [ ] 212. Word Search II
 
 ## two heaps
-- [ ] Find Median from Data Stream
+- [ ] 295. Find Median from Data Stream
 
 
 ## top k elements
-- [ ] Top K Frequent Elements
+- [ ] 347. Top K Frequent Elements
 
 
 ## intervals
-- [ ] Merge Intervals
-- [ ] Non-overlapping Intervals
+- [ ] 56. Merge Intervals
+- [ ] 435. Non-overlapping Intervals
 
 
 ## k-way merge
-- [ ] Merge k Sorted Lists
+- [ ] 23. Merge k Sorted Lists
 
 
 ## data structure design
-- [ ] LRU Cache
+- [ ] 146. LRU Cache
 
 
 ## greedy 
-- [ ] Jump Game II
+- [ ] 45. Jump Game II
 
 
 ## depth first search (dfs)
-- [ ] Number of Islands
-- [ ] Clone Graph
-- [ ] Is Graph Bipartite?
+- [ ] 200. Number of Islands
+- [ ] 133. Clone Graph
+- [ ] 785. Is Graph Bipartite?
 
 
 ## breadth first search (bfs)
-- [ ] Rotting Oranges
-- [ ] Word Ladder
+- [ ] 994. Rotting Oranges
+- [ ] 127. Word Ladder
 
 
 ## topological sort
-- [ ] Course Schedule II
+- [ ] 210. Course Schedule II
 
 
 ## union find
-- [ ] Number of Provinces
+- [ ] 547. Number of Provinces
 
 ## minimum spanning tree (mst)
-- [ ] Min Cost to Connect All Points
+- [ ] 1584. Min Cost to Connect All Points
 
 
 ## shortest path 
-- [ ] Cheapest Flights Within K Stops
+- [ ] 787. Cheapest Flights Within K Stops
 
 
 ## 1-d dynamic programming (dp)
 
-- [ ] House Robber II
+- [ ] 213. House Robber II
 
 ## knapsack dynamic programming (dp)
 
-- [ ] Partition Equal Subset Sum
+- [ ] 416. Partition Equal Subset Sum
 
 ## unbounded knapsack dp
 
-- [ ] Coin Change
+- [ ] 322. Coin Change
 
 ## longest increasing subsequence (dp)
 
-- [ ] Longest Increasing Subsequence
+- [ ] 300. Longest Increasing Subsequence
 
 ## 2d (grid) DP
 
-- [ ] Minimum Path Sum
-- [ ] Longest Increasing Path in a Matrix
+- [ ] 64. Minimum Path Sum
+- [ ] 329. Longest Increasing Path in a Matrix
 
 ## string dp
 
-- [ ] Longest Common Subsequence
-- [ ] Word Break
+- [ ] 1143. Longest Common Subsequence
+- [ ] 139. Word Break
 
 ## maths / geometry
 
-- [ ] Reverse Integer
-- [ ] Max Points on a Line
+- [ ] 7. Reverse Integer
+- [ ] 149. Max Points on a Line
 
 
-# solved:
-- 2. add two numbers
-- 169. majority element
 
 
