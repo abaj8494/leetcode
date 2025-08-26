@@ -18,8 +18,8 @@ pros:
 
 ## strings
 
-- [ ] 392. Is Subsequence
-- [ ] 151. Reverse Words in a String
+- [X] 392. Is Subsequence
+- [X] 151. Reverse Words in a String
 
 ## bit manipulation
 
