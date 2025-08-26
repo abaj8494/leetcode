@@ -13,8 +13,8 @@ pros:
 ## arrays
 
 - [X] 169. Majority Element
-- [ ] 238. Product of Array Except Self
-- [ ] 41. First Missing Positive
+- [X] 238. Product of Array Except Self
+- [X] 41. First Missing Positive
 
 ## strings
 
