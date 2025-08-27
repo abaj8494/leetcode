@@ -38,6 +38,8 @@ from typing import *
 # @leet start
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        """
+        #O(mnlogn) sorting bruteforce
         print(strs)
         base = []
         for string in strs:
@@ -67,5 +69,24 @@ class Solution:
             ans.append(sublist)
 
         return ans
+        """
+
+        # hashmap: O(m*n)
+        hash = {}
+        for s in strs:
+
+            count = [0] * 26
+            for c in s:
+                count[ord(c)-ord("a")] += 1
+
+            key = tuple(count)
+            if key in hash:
+                hash[key].append(s)
+            else:
+                hash[key] = [s]
+
+        return list(hash.values())
+
+
         
 # @leet end
