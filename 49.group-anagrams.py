@@ -39,6 +39,33 @@ from typing import *
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         print(strs)
-        return [strs]
+        base = []
+        for string in strs:
+            base.append("".join((sorted(string))))
+
+        print(base)
+        # find indices that are all the same
+        idxs = []
+        marked = []
+        for i, word1 in enumerate(base):
+            i_likes = []
+            for j, word2 in enumerate(base):
+                if word1 == word2 and i <= j and j not in marked:
+                    marked.append(j)
+                    i_likes.append(j)
+            if i_likes:
+                idxs.append(i_likes)
+
+
+        print(idxs)
+        # replace indices with words:
+        ans = []
+        for tup in idxs:
+            sublist = []
+            for idx in tup:
+                sublist.append(strs[idx])
+            ans.append(sublist)
+
+        return ans
         
 # @leet end
