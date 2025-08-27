@@ -23,8 +23,8 @@ pros:
 
 ## bit manipulation
 
-- [ ] 338. Counting Bits
-- [ ] 260. Single Number III
+- [X] 338. Counting Bits
+- [X] 260. Single Number III
 
 ## hash tables
 
