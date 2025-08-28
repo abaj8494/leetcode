@@ -28,7 +28,7 @@ pros:
 
 ## hash tables
 
-- [ ] 49. Group Anagrams
+- [X] 49. Group Anagrams
 - [ ] 128. Longest Consecutive Sequence
 
 ## two pointers
