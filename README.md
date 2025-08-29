@@ -29,11 +29,11 @@ pros:
 ## hash tables
 
 - [X] 49. Group Anagrams
-- [ ] 128. Longest Consecutive Sequence
+- [X] 128. Longest Consecutive Sequence
 
 ## two pointers
 
-- [ ] 11. Container With Most Water
+- [X] 11. Container With Most Water
 - [ ] 15. 3Sum
 - [ ] 42. Trapping Rain Water
 
