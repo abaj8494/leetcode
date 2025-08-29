@@ -37,23 +37,18 @@ from typing import *
 
 # @leet start
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        """o(n^2)
-        for i in range(len(nums)):
-            for j in range(i+1, len(nums)):
-                if nums[j] + nums[i] == target:
-                    return [i, j]
-        return []
-        """
-        hashmap = {}
-        for i, n in enumerate(nums):
-            hashmap[n] = i
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        leftPointer, rightPointer = 0, len(numbers) - 1
+        while leftPointer != rightPointer:
+            status = numbers[leftPointer] + numbers[rightPointer]
+            if status < target:
+                leftPointer += 1
+            elif status > target:
+                rightPointer -= 1
+            else:
+                return [leftPointer+1, rightPointer+1]
 
-        for i, n in enumerate(nums):
-            complement = target - n
-            if complement in hashmap and hashmap[complement] != i:
-                return [i, hashmap[complement]]
-
+        
         return []
         
 # @leet end

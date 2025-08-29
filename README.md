@@ -35,6 +35,10 @@ pros:
 
 - [X] 11. Container With Most Water
 - [ ] 15. 3Sum
+- [X] 01. 2Sum
+- [X] 169. Two Sum II
+- [ ] 3Sum Smaller
+- [ ] 3Sum Closest
 - [ ] 42. Trapping Rain Water
 
 ## prefix sum

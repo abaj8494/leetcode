@@ -36,24 +36,18 @@ from typing import *
 # @leet imports end
 
 # @leet start
+from itertools import combinations
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        """o(n^2)
-        for i in range(len(nums)):
-            for j in range(i+1, len(nums)):
-                if nums[j] + nums[i] == target:
-                    return [i, j]
-        return []
-        """
-        hashmap = {}
-        for i, n in enumerate(nums):
-            hashmap[n] = i
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        combinations_of_3 = List(combinations(nums,3))
+        print(len(combinations_of_3))
+        out = []
+        for c in combinations_of_3:
+            if sum(c) == 0:
+                if sorted(c) not in out:
+                    out.append(sorted(c))
 
-        for i, n in enumerate(nums):
-            complement = target - n
-            if complement in hashmap and hashmap[complement] != i:
-                return [i, hashmap[complement]]
-
-        return []
+        return out
+        
         
 # @leet end
