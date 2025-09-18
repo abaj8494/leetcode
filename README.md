@@ -37,9 +37,9 @@ pros:
 - [X] 15. 3Sum
 - [X] 01. 2Sum
 - [X] 169. Two Sum II
-- [ ] 3Sum Smaller
-- [ ] 3Sum Closest
-- [ ] 42. Trapping Rain Water
+- [X] 16. 3Sum Smaller
+- [X] 259. 3Sum Closest
+- [X] 42. Trapping Rain Water
 
 ## prefix sum
 
