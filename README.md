@@ -43,7 +43,7 @@ pros:
 
 ## prefix sum
 
-- [ ] 325. Subarray Sum Equals K
+- [X] 325. Subarray Sum Equals K
 
 
 ## sliding window - fixed size
