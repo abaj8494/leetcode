@@ -48,7 +48,7 @@ pros:
 
 ## sliding window - fixed size
 
-- [ ] 438. Find All Anagrams in a String
+- [X] 438. Find All Anagrams in a String
 - [ ] 567. Permutation in String
 
 ## sliding window - dynamic size
@@ -65,7 +65,6 @@ pros:
 
 - [ ] 54. Spiral Matrix
 - [ ] 48. Rotate Image
-
 
 ## linked list
 
