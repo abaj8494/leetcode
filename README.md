@@ -1,14 +1,6 @@
-# language:
-
-python. you can already see from the repo, but this was a laborious choice coupled with my unique circumstance and future goals. GPT5 deeply researched the matter for 7 minutes.
-
-pros:
-- syntax is easy
-    - harder to bonk in interviews
-- easy access to data structures, unlike typescript
-- relates well to my longer term Machine Learning Engineer goals
-
-# problems:
++++
+title = "agenda"
++++
 
 ## arrays
 

@@ -1,6 +1,13 @@
-# categories
++++
+title = "Survey"
+date = "2025-10-31T20:42:32+11:00"
++++
 
-Array 1977
+|----------|--------------------|
+| category | number of problems |
+|----------|--------------------|
+| Array    | 1977               |
+
 String 809
 Hash Table 722
 Dynamic Programming 609
@@ -73,12 +80,11 @@ Rejection Sampling 2
 Biconnected Component 1
 Collapse Search questions
 
+|----------------|---------|-----------------|------------|
+| problem number | title   | acceptance rate | difficulty |
+|----------------|---------|-----------------|------------|
+| 1.             | Two Sum | 56.2%           | Easy       |
 
-# problems
-
-1. Two Sum
-56.2%
-Easy
 
 2. Add Two Numbers
 46.8%
